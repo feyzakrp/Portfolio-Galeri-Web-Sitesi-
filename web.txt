@@ -1,0 +1,78 @@
+Prompt 1
+
+Öncelikle bir ön web geliştiricisi olarak hareket etmeni istiyorum.
+Proje için HTML,CSS ,Javascript araçlarını kullanarak bir portfolia galeri web sitesi
+tasarlamanı istiyorum.
+Web sitesinin farklı cihazlara(bilgisayar,tablet,telefon) duyarlı olmasını istiyorum.
+Düzen ve stil açısından site yapısında Twitter Bootstrap CSS sınıflarının en son sürümünü de içermelidir. 
+Ayrıca kodunda herhangi bir açıklama gerektiren yorum satırı ifadelerine gerek yok.
+Web sitemde semantik etiketlerin de (header,footer,main,nav,section,article,aside) bulunmasını istiyorum.
+Ayrıca sayfa içeriğindeki başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisiniz. 
+Web sitemin konusu ise yapay zeka ile yeni dünya harikalarını oluşturup gösteren ve açıklayan bir site.
+Hedef kitlesi, macera tutkunu , fotoğraf çekmeyi seven, yeni ve güzel yerler görmekten zevk alan her yaş grubu insan olabilir 
+ve bu insanlarda siteye fotoğraf ekleyip açıklama koyabilir.
+Önemli olan sitemi ziyaret eden insnalarda ,daha önce görmedikleri yerler ve bilgiler olsun.
+Bu websitesini oluşturmamda bana yardımcı olur musun?
+
+Prompt 2
+Sayfamın header bölümünde bir logo olmasını istiyorum ve aynı şekilde bu logodan bir adette footer bölümünde olmasini istiyorum.
+Sayfanın içeriğinin galeri görünümünde, her bir ızgarada 4 adet olmak üzere 200x300 boyutlarında resimler yer almasını ve burada yer alacak resim içeriğinin kırpılmamasını istiyorum.
+Resimlerin üzerine gelindiginde bir geçiş efektine sahip olması güzel olabilir.
+Yer isimlerinin başlıklarının arka planına antrasit bir arka plan ekle ve yazı stil rengini soft maviye çevir.
+Ayrıca logo boyutunu 300x300 boyutuna getir ve sol tarafa dayalı olarak düzenle.
+Ve insanların da fotoğraf ekleyip yazabileceği bir alan  oluşturmanı istiyorum. 
+Bir de <html lang="en"> olsun. 
+
+Prompt 3
+Anasayfa içeriği kısmına "Dünyayı sizin hayallerinizdeki kadar güzel bir hale çevrildiğini görmeyi ister misiniz ?" sorusunu ekleyip altta galeri
+şeklindeki fotoğraflara basılınca menüde " Kendi Dünyan" adlı seçenek adı altında o sayfaya ulaşım sağlar mısın?
+
+Prompt 4
+Sitenin hakkında kısmına yapay zekanın hayatımızdaki önemine ve bize sunabileceği güzellikleri açıkladıktan sonra sitede olan şeyler
+hakkında bilgi veren bir bölüm oluşturur musun?
+ve hakkında kısmını ilk sayfada göstermek yerine menü barından geçiş yapmayı sağlar mısın?
+
+Prompt 5
+Sitede menü kısmındaki portföy kısmına ne koymak doğru olur sence?
+Bana böyle bir portföy oluşturur musun?
+
+Prompt 6
+Menüdeki iletişim kısmına instagram ,twitter, facebook gibi sosyal medya logoları koyup orayaulaşım sağlayan link ayarlar mısın?
+
+Prompt 7
+Şimdi menü çubuğundaki yazılara basarak farklı siteye geçiş yapmayı sağlar mısın. Çünkü hepsinin bir sayfada olmasını istemiyorum
+
+Prompt 8
+Şimdi sana uzantısı olan bir resim vereceğim ve bunu sitenin favikonu yapacaksın . Yapabilir misin?
+-
+gunesimm.png resmini sitenin favikonu yapar mısın?
+
+Prompt 9(Monica tüm komutlar)
+
+Yuvarlak bir şeklin yarısını ay yarısını güneş yapacak şekilde bir site logosu tasarlar mısın?
+Yapay zeka ile dünya harikaları tasarlar mısın ?(Dünyanın Yedi Harikası gibi)
+Yapay zeka ile dünya harikaları tasarlar mısın? Mesela Babil'in Asma Bahçeleri,Olympia'daki Zeus Heykeli,Efes'teki Artemis Tapınağı,
+Halikarnas Mozolesi,Rodos Heykeli, İskenderiye Fenerine benzeyen birer örnek yapar mısın?
+Portfolia web sitem var ve menü kısmındaki arka planını yukarıdaki resimlerden biri gibi olmaısnı istiyorum tasarlar mısın?
+Bana dünya harikalarından bir menü arkaplan resmi tasarlar mısın?
+Portfolia kısmındaki resim başlıklarının hepsi.
+
+Prompt 10
+Şimdi elimde uzantıları olan birkaç dünya harikası resmi var bunu siteye yüklemek istiyorum. Uzantıları versem kodu yazman mümkün mü ?
+Resimleri bir klasör gibi yapsan ve birinden diğerine efektle geçse nasıl olur ve boyutlarını küçültür müsün?
+
+Prompt 11
+Senden anasayfa kısmında kendi dünyan butonunu silip orada yazının altında slayt gösterisi halinde olan resimleri koymanı istiyorum. 
+Bu resimler soldan sağa ok ile kullanıcı istediğinde kayabilsin ve resme tıklandığında onu resmin bulunduğu sayfaya yani "kendi dünyan "sayfasına götürsün .
+Ama bu sayfa ana sayfadan ayrılan farklı bir pencere olsun .
+
+Prompt 12
+Resimlerin boyutunu biraz küçültür müsün ? 
+Kaydırma buton rengini siyah yapabilir misin ?
+
+Prompt 13
+Tamam şimdi atacağım kodda menüde iletişim kısmına basınca sayfa çubuğunu sayfanın en altındaki iletişim kısmına indirir misin?
+
+Prompt 14
+Merhaba sana 2 tane html kodu atacağım ve ilk kodda slayt gösterisi olan fotoğraflara basınca 2.koddaki sayfaya yönlendirip 
+orada üstten aşağı fotoğrafları sıralamasını istiyorum . Yapabilirsen evet de

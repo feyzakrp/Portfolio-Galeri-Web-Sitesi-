@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="web.css">
+    <link rel="icon" href="gunesimm.png" type="image/png">
+    <style>
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(100%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="web.html"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="web.html">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hakkinda.html">Hakkında</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kendi_dunyan.html">Kendi Dünyan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolyo.html">Portföy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);" onclick="scrollToContact()">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hakkinda">
+            <div class="container">
+                <h2>Hakkında</h2>
+                <p>Yapay zeka, modern teknolojinin en önemli alanlarından biridir ve hayatımızın birçok yönünü etkilemektedir. Yapay zeka, otomasyon, tıp, iletişim, eğlence ve daha birçok alanda inanılmaz yenilikler getirmekte ve insan yaşamını kolaylaştırmaktadır. Ayrıca yapay zeka, dünya harikalarının keşfi ve oluşturulması gibi büyük projelerde de önemli bir rol oynamaktadır.</p>
+                <p>Sitemiz, yapay zekanın hayatımızdaki önemini vurgulamak ve dünya harikalarını tanıtmak amacıyla kurulmuştur. Fotoğrafçılar, seyahat severler ve yapay zeka meraklıları için tasarlanmıştır.</p>
+            </div>
+        </section>
+        <section id="site-ozellikleri">
+            <div class="container">
+                <h2>Sitemizde Neler Var ? </h2>
+                <ul>
+                    <li>Dünya harikalarını keşfetmek için geniş bir galeri.</li>
+                    <li>Kullanıcıların kendi dünya harikalarını paylaşabileceği bir alan.</li>
+                    <li>Fotoğraf galerisinde geçiş efektleri ile daha etkileyici deneyim.</li>
+                    <li>Anasayfada görsel ve içerikle ziyaretçilerin ilgisini çekecek sorular.</li>
+                    <li>Duyarlı tasarım ile farklı cihazlarda mükemmel görünüm.</li>
+                </ul>
+            </div>
+        </section>    
+        <section id="iletisim">
+            <div class="container">
+                <h2>İletişim</h2>
+                <p id="p">Bizimle sosyal medyada da iletişime geçebilirsiniz:</p>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/"><img src="instagram_logo.png" alt="Instagram" width="20" height="20"></a>
+                    <a href="https://twitter.com/"><img src="twitter_logo.png" alt="Twitter" width="20" height="20"></a>
+                    <a href="https://www.facebook.com/"><img src="facebook_logo.png" alt="Facebook" width="20" height="20"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yapay Zeka ile Dünya Harikaları. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function scrollToContact() {
+            var contactSection = document.getElementById("iletisim");
+            contactSection.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+        }
+    </script>
+    
+    
+</body>
+</html>
+

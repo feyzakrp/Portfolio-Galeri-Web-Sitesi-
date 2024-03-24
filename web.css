@@ -1,0 +1,182 @@
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9090906f;
+}
+
+/* Başlık stilleri */
+h2 {
+    font-size: 16px; /* medium yerine somut bir değer */
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1e1f1ffb; /* Soft Mavi için düzeltilmiş renk */
+    padding: 10px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e1f1ffb; /* Soft Mavi için düzeltilmiş renk */
+    padding: 20px;
+    margin-top: 10px;
+}
+.photo-item {
+    margin-bottom: 20px; /* Her fotoğraf arasında 20px boşluk */
+}
+
+
+.iletisim{
+    font-size: 10px; /* Bu değeri ihtiyacınıza göre ayarlayabilirsiniz */
+}
+
+
+/* Menü stilleri */
+.navbar {
+    height: 500px;
+    margin-bottom: 10px;
+    background-image:url("LccQu.png"); /* Arka plan resminin yolunu belirtin */
+    background-size: contain; /* Resmi arka plan boyutuna göre ayarla */
+    background-position: center; /* Resmi ortala */
+}
+
+/* Menü öğeleri için stil */
+.navbar-nav {
+    background-color:#9090906f; /* Menü öğelerinin arka plan rengini şeffaf yapın */
+    z-index: 2; /* Menü öğelerinin arka plandan üstte olmasını sağlamak için z-index kullanın */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    font-weight: bold;
+    color: white;/* Menü yazılarını beyaz yaparak okunabilirliği artırın */
+    text-align: center;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Hover durumunda renk değişimi ekleyerek kullanıcı etkileşimini artırın */
+}
+
+/* Footer stilleri */
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: rgb(40, 46, 62);
+    color: #fff;
+    text-align: center;
+}
+
+/* Galeri stilleri */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px; /* Galeriye üstten boşluk ekleyerek düzeni iyileştirin */
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Kayan Gösteri (Carousel) Stilleri */
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+.prev, .next {
+    cursor: pointer;
+    position:absolute;
+    top: 50%;
+    width:auto;
+    margin-top:-22px; /* Daha iyi bir hizalama için margin-top değerini ayarlayın */
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0; /* Yuvarlak köşe ekleyerek tasarımı modernleştirin */
+}
+
+.prev:hover, .next:hover {
+    background-color: rgb(14, 1, 1); /* Hover durumunda arka plan rengi ekleyerek görsel bir geri bildirim sağlayın */
+}
+
+#p {
+    font-size: 14px; /* Veya istediğiniz başka bir değer */
+}
+#p1{
+    text-align: center;
+}
+#i2{
+    margin-top: 100px;
+}
+#t2 {
+
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000000fb; /* Soft Mavi için düzeltilmiş renk */
+    padding: 20px;
+    text-align: center;
+
+}
+.menu{
+  display: flex; /* Flexbox düzenlemesini etkinleştirir */
+  justify-content: center; /* Menüyü yatay olarak ortalar */
+  align-items: flex-start; /* Menü yazılarını dikey olarak üste çeker */
+  height: 100px; /* Menünüzün yüksekliğini ayarlayın */
+}
+
+.menu ul {
+  list-style-type: none; /* Liste işaretlerini kaldırır */
+  padding: 0; /* Varsayılan padding'i sıfırlar */
+}
+
+.menu li {
+  display: inline-block; /* Liste öğelerini yan yana getirir */
+  margin-right: 20px; /* Liste öğeleri arasında boşluk bırakır */
+}
+
+
+
+/* Genel header düzenlemesi */
+header {
+    text-align: center; /* Başlığı ve menüyü ortalar */
+    width: 100%;
+    font-weight: bold;
+  }
+  
+/* Navbar markasını (başlık) büyütme ve stil ayarları */
+.navbar-brand {
+    font-size: 24px; /* Başlığın font boyutu */
+    font-weight: bold; /* Başlığın kalınlığı */
+    margin-top: 20px; /* Üstten boşluk */
+    text-align: center;
+
+  }
+  
+  /* Menü öğeleri için stil ayarları */
+  .navbar-nav {
+    justify-content: center; /* Menü öğelerini ortalar */
+    width: 100%;
+    text-align: unset;
+  }
+  .nav-item {
+    padding: 10px; /* Menü öğeleri arasında boşluk */
+  }
+  
+  .nav-link {
+    font-size: 18px; /* Menü yazılarının boyutu */
+  }
+  
+  /* Navbar'ın mobil görünümdeki düğmesini ayarlama */
+  .navbar-toggler {
+    float: right; /* Sağa yasla */
+  }

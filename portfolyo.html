@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapay Zeka ile Dünya Harikaları</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="web.css">
+    <link rel="icon" href="gunesimm.png" type="image/png">
+</head>
+<body>
+
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="web.html">Anasayfa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="hakkinda.html">Hakkında</a></li>
+                        <li class="nav-item"><a class="nav-link" href="kendi_dunyan.html">Kendi Dünyan</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolyo.html">Portföy</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);" onclick="scrollToContact()">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="portfolyo">
+            <div class="container">
+                <h2></h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 >1-Yapay Zeka Destekli Sanat Eserleri</h3>
+                        <p>Yapay zeka algoritmaları kullanılarak üretilen benzersiz dijital sanat eserlerinin sergilenmesi.</p>
+                        <p>GAN (Generative Adversarial Networks) gibi yapay zeka teknikleriyle oluşturulan resimlerin ve sanat eserlerinin tanıtımı.</p>
+                        <img src="GVrNU.png" alt="Sergi" style="width: 100%;">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="FbJGc.png" alt="center" style="width: 90%; ">                        
+                        <h3>2-Yapay Zeka Tabanlı Turistik Uygulamalar</h3>
+                        <p>Yapay zeka ile desteklenmiş seyahat rehberleri ve turistik uygulamaların gösterimi.</p>
+                        <p>Ziyaretçilere, yapay zeka algoritmaları tarafından kişiselleştirilmiş seyahat önerileri sunan mobil uygulamanın tanıtımı.</p>
+
+                    </div>
+                    <div class="col-md-6">
+                        <h3>3-Fotoğraf Düzenleme ve Tanıma Uygulamaları</h3>
+                        <p>Yapay zeka tabanlı fotoğraf düzenleme uygulamalarının özelliklerinin ve avantajlarının sergilenmesi.</p>
+                        <p>Gelişmiş yapay zeka algoritmaları kullanılarak geliştirilmiş fotoğraf tanıma ve sınıflandırma uygulamalarının tanıtımı.</p>
+                        <img id="i1" src="ZrCRk.png" alt="pic" style="width: 70%;">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="zCMfG.png" alt="Tek." style="width: 100%;">                        
+                        <h3>4-Yapay Zeka ile Destekli Yenilenebilir Enerji Teknolojileri </h3>
+                        <p>Temiz ve sürdürülebilir enerji kaynaklarına dayanan yenilenebilir enerji çözümlerinin tanıtımı.</p>
+                        <p>Güneş panelleri, rüzgar türbinleri ve hidroelektrik santralleri gibi yenilenebilir enerji teknolojileri ile ilgili bilgiler.</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="iletisim">
+            <div class="container">
+                <h2>İletişim</h2>
+                <p id="p">Bizimle sosyal medyada da iletişime geçebilirsiniz:</p>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/"><img src="instagram_logo.png" alt="Instagram" width="20" height="20"></a>
+                    <a href="https://twitter.com/"><img src="twitter_logo.png" alt="Twitter" width="20" height="20"></a>
+                    <a href="https://www.facebook.com/"><img src="facebook_logo.png" alt="Facebook" width="20" height="20"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yapay Zeka ile Dünya Harikaları. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function scrollToContact() {
+            var contactSection = document.getElementById("portfolyo");
+            contactSection.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+        }
+    </script>
+    
+    
+    
+</body>
+</html>
